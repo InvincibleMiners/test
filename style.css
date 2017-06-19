@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Patrick+Hand+SC');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 23px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #89cff0;
+}
+
+.active {
+    background-color: #89cff0;
+    color: #333;
+    font-weight: bold;
+}
+#mainhead {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 25;
+  font-weight: bold;
+}
+.banner {
+  background-image: url("http://capat.weebly.com/uploads/6/2/9/8/62985817/background-images/1481930750.jpg");
+  width: 100%; !important
+  height: 1000px; !important
+  background-size: 100% 1000px;!important
+  background-repeat: no-repeat;
+}
+h1 {
+  font-weight:bold;
+}
+.wrap {
+    width: 100%;
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+.text_over_image {
+    position: absolute;
+    margin: auto;
+    top: 100%;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    height:250px;
+    text-align: left;
+}
+a:hover {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.bannerh:hover {
+    color: #333;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.below {
+  margin: 10px 50px 10px 50px;
+  background-color: #333;
+  
+}
